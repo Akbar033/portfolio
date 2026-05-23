@@ -32,7 +32,7 @@ class App extends StatelessWidget {
           child: BlocBuilder<ThemeBloc, ThemeState>(
             builder: (context, state) {
               return MaterialApp(
-                title: 'Flutter Demo',
+                title: 'porfolio',
 
                 //here i want to acces the bloc which change the theme state below
                 theme: state is DarkThemeState
